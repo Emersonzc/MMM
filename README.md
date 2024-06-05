@@ -9,3 +9,9 @@ torchvision ==  0.9.1+cu111
 faiss-gpu  == 1.7.2
 
 scikit-learn == 1.3.2
+
+
+### Contact
+jiangming.shi@outlook.com; S_yinxb@163.com.
+
+The code is implemented based on [PCA](https://github.com/YimingYang23/PCA_USLVIReID).
