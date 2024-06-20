@@ -16,7 +16,7 @@
     <a href="https://scholar.google.com/citations?user=idiP90sAAAAJ&hl=zh-CN&oi=sra" rel="external nofollow noopener" target="_blank"><strong>Yanyun Qu*</strong></a>       
   </p>
 <p align="center">
-  <a href="https://arxiv.org/abs/2401.06825" rel="external nofollow noopener" target="_blank">Access the research paper here</a>
+  <a href="https://arxiv.org/pdf/2401.06825" rel="external nofollow noopener" target="_blank">Access the research paper here</a>
 
 ![MMM](imgs/framework.png)
 This is an official code implementation of "MMM: Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification", which is accepted by ECCV 2024.
