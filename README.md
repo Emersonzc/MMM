@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://arxiv.org/pdf/2401.06825" rel="external nofollow noopener" target="_blank">Access the research paper here</a>
 
-![MMM](imgs/framework.png)
+![MMM](framework.png)
 This is an official code implementation of "MMM: Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification".
 
 ## Requirements
