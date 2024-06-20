@@ -21,10 +21,15 @@
 ![MMM](imgs/framework.png)
 This is an official code implementation of "MMM: Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification", which is accepted by .
 
-## Setup and Train/Test Instructions
+## Requirements
 ```bash
 # Install the required packages
 pip install torch==1.8.0 torchvision==0.9.1+cu111 faiss-gpu==1.6.3 scikit-learn==1.3.2
+```
+
+## Setup and Train/Test Instructions
+```bash
+
 
 # Training Steps for SYSU-MM01
 
