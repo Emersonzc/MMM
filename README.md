@@ -51,8 +51,8 @@ If our work is helpful for your research, please consider citing:
   journal={arXiv preprint arXiv:2401.06825},
   year={2024}
 }
-```
-```
+
+
 @inproceedings{shi2023dpis,
   title={Dual pseudo-labels interactive self-training for semi-supervised visible-infrared person re-identification},
   author={Shi, Jiangming and Zhang, Yachao and Yin, Xiangbo and Xie, Yuan and Zhang, Zhizhong and Fan, Jianping and Shi, Zhongchao and Qu, Yanyun},
@@ -63,7 +63,7 @@ If our work is helpful for your research, please consider citing:
 
 
 ## Contact
-jiangming.shi@outlook.com; S_yinxb@163.com.
+jiangming.shi@outlook.com; xiangboyin@stu.xmu.edu.cn.
 
 ## Acknowledgements
 The code is implemented based on [ADCA(ACMMM2022)](https://github.com/yangbincv/ADCA), [PGM(CVPR2023)](https://github.com/zesenwu23/USL-VI-ReID). We sincerely thank all researchers for their high-quality works.
