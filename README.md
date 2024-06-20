@@ -14,9 +14,13 @@ Training
 
 for SYSU-MM01
 Step 1: Obtain Features and Pseudo-Labels from Baseline Model
+
+
 CUDA_VISIBLE_DEVICES=0,1 python Baseline_sysu.py --data-dir dataset_path
 
 Step 2: Train the MMM Model
+
+
 CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path --resume_net1 save_model_name
 
 
