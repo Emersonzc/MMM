@@ -66,4 +66,4 @@ If our work is helpful for your research, please consider citing:
 jiangming.shi@outlook.com; S_yinxb@163.com.
 
 ## Acknowledgements
-The code is implemented based on [ADCA(ACMMM2022)](https://github.com/yangbincv/ADCA), [PGM(CVPR2023)](https://github.com/zesenwu23/USL-VI-ReID). We sincerely thank all developers for their high-quality works.
+The code is implemented based on [ADCA(ACMMM2022)](https://github.com/yangbincv/ADCA), [PGM(CVPR2023)](https://github.com/zesenwu23/USL-VI-ReID). We sincerely thank all researchers for their high-quality works.
