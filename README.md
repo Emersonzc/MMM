@@ -27,10 +27,8 @@ This is an official code implementation of "MMM: Multi-Memory Matching for Unsup
 pip install torch==1.8.0 torchvision==0.9.1+cu111 faiss-gpu==1.6.3 scikit-learn==1.3.2
 ```
 
-## Setup and Train/Test Instructions
+## Train/Test Instructions
 ```bash
-
-
 # Training Steps for SYSU-MM01
 
 # Step 1: Obtain Features and Pseudo-Labels from Baseline Model
@@ -43,12 +41,21 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path --resume_net1 save
 CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path
 
 ```
-# Testing Steps for SYSU-MM01 
-CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path
+
+## Citation
+If our work is helpful for your research, please consider citing:
+```
+@article{shi2024multi,
+  title={Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification},
+  author={Shi, Jiangming and Yin, Xiangbo and Chen, Yeyun and Zhang, Yachao and Zhang, Zhizhong and Xie, Yuan and Qu, Yanyun},
+  journal={arXiv preprint arXiv:2401.06825},
+  year={2024}
+}
+```
 
 
-
-### Contact
+## Contact
 jiangming.shi@outlook.com; S_yinxb@163.com.
 
-The code is implemented based on
+## Acknowledgements
+The code is implemented based on [ADCA(ACMMM2022)](https://github.com/yangbincv/ADCA), [PGM(CVPR2023)](https://github.com/zesenwu23/USL-VI-ReID).
