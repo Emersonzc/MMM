@@ -29,17 +29,19 @@ pip install torch==1.8.0 torchvision==0.9.1+cu111 faiss-gpu==1.6.3 scikit-learn=
 
 ## Train/Test Instructions
 ```bash
-# Training Steps for SYSU-MM01
+# Training Steps
 
 # Step 1: Obtain Features and Pseudo-Labels from Baseline Model
-CUDA_VISIBLE_DEVICES=0,1 python Baseline_sysu.py --data-dir dataset_path
+CUDA_VISIBLE_DEVICES=0,1 python Baseline.py --dataset sysu --data-dir sysu_dataset_path --iters 200 # for SYSU-MM01
+CUDA_VISIBLE_DEVICES=0,1 python Baseline.py --dataset regdb --data-dir regdb_dataset_path --iters 100 # for REGDB
 
 # Step 2: Train the MMM Model
-CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path --resume_net1 save_model_name
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset sysu --data-dir sysu_dataset_path # for SYSU-MM01
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset regdb --data-dir regdb_dataset_path # for RegDB
 
-# Testing for SYSU-MM01
-CUDA_VISIBLE_DEVICES=0 python main.py --data-dir dataset_path
-
+# Testing 
+CUDA_VISIBLE_DEVICES=0 python test.py --dataset sysu --data-dir sysu_dataset_path # for SYSU-MM01
+CUDA_VISIBLE_DEVICES=0 python test.py --dataset regdb --data-dir regdb_dataset_path # for RegDB
 ```
 
 ## Citation
